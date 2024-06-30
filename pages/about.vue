@@ -3,9 +3,9 @@ definePageMeta({
   layout: "landing",
 });
 
-const TeamImg1 = "https://source.unsplash.com/IF9TK5Uy-KI";
-const TeamImg2 = "https://source.unsplash.com/iEEBWgY_6lA";
-const TeamImg3 = "https://source.unsplash.com/ZHvM3XIOHoE";
+const TeamImg1 = "https://images.unsplash.com/photo-1672766536873-3b2b11b94b6f?q=80&w=2592&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+const TeamImg2 = "https://images.unsplash.com/photo-1682924240545-4c761f0f38e8?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+const TeamImg3 = "https://images.unsplash.com/photo-1609840533224-a0caa4a600b6?q=80&w=2751&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
 
 const team = [
   {
@@ -47,12 +47,12 @@ const team = [
 
     <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
       <h2 class="font-bold text-3xl text-gray-800">
-        Empowering the world with Nuxt.
+        Empowering Your Brand Online and Offline.
       </h2>
       <p class="text-lg leading-relaxed text-slate-500">
-        We're a multi-cultural team from around the world! We come from diverse
-        backgrounds, bringing different personalities, experiences and skills to
-        the job. This is what makes our team so special.
+        At Buttercup Creatives, we are a dedicated team from diverse backgrounds,
+        bringing a wealth of personalities, experiences, and skills to every project.
+        Our passion lies in transforming your ideas into compelling stories, both online and offline.
       </p>
     </div>
     <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">

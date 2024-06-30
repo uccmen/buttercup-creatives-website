@@ -1,12 +1,8 @@
 <script setup>
 const menuitems = [
   {
-    title: "Features",
-    path: "#",
-  },
-  {
-    title: "Pricing",
-    path: "/pricing",
+    title: "Services",
+    path: "/#services",
   },
   {
     title: "About",
@@ -26,8 +22,8 @@ const open = ref(false);
     <header class="flex flex-col lg:flex-row justify-between items-center my-5">
       <div class="flex w-full lg:w-auto items-center justify-between">
         <a href="/" class="text-lg"
-          ><span class="font-bold text-slate-800">Nuxt</span
-          ><span class="text-slate-500">ship</span>
+          ><span class="font-bold text-slate-800">Buttercup </span
+          ><span class="text-slate-500">Creatives</span>
         </a>
         <div class="block lg:hidden">
           <button @click="open = !open" class="text-gray-800">
@@ -67,19 +63,19 @@ const open = ref(false);
             </a>
           </li>
         </ul>
-        <div class="lg:hidden flex items-center mt-3 gap-4">
+        <!-- <div class="lg:hidden flex items-center mt-3 gap-4">
           <LandingLink href="#" styleName="muted" block size="md"
             >Log in</LandingLink
           >
           <LandingLink href="#" size="md" block>Sign up</LandingLink>
-        </div>
+        </div> -->
       </nav>
-      <div>
+      <!-- <div>
         <div class="hidden lg:flex items-center gap-4">
           <a href="#">Log in</a>
           <LandingLink href="#" size="md">Sign up</LandingLink>
         </div>
-      </div>
+      </div> -->
     </header>
   </LandingContainer>
 </template>
